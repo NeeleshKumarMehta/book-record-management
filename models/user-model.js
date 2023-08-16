@@ -23,7 +23,7 @@ const userSchema = new Schema(
         },
         returnDate: {
             type: String,
-            required: true
+            required: false
         },
         subscriptionType: {
             type: String,
